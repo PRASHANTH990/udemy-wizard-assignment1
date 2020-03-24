@@ -1,13 +1,15 @@
-<div class="container">    
+<div class="container">
+ 
     <div class="row wiz_progress">
         <div class="col-lg-3 status_box" style="color:  green;">
             <i class="fa fa-address-card-o"></i>
             <h6>personal details</h6>
             <i class="fa fa-check"></i>
         </div>
-        <div class="col-lg-3 status_box" >
+        <div class="col-lg-3 status_box"  style="color:  green;">
             <i class="fa fa-address-book-o"></i>
             <h6>contact details</h6>
+            <i class="fa fa-check"></i>
         </div>
         <div class="col-lg-3 status_box">
             <i class="fa fa-thumbs-up"></i> 
@@ -20,23 +22,30 @@
     </div>
     <div class="row mt-4">
         <div class="col-lg-12">
-            <h5 class="mb-3 border-bottom" style="height: 40px;">Step 1: Personal Details</h5>
+            <h5 class="mb-3 border-bottom" style="height: 40px;">Step 2: Contact Details</h5>
             <form>
                 <div class="form-group row">
-                  <label for="inputEmail3" class="col-sm-2 col-form-label">First Name</label>
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
                   <div class="col-sm-6">
                     <input type="email" class="form-control" id="inputEmail3">
                   </div>
                 </div>
                 <div class="form-group row">
-                  <label for="inputPassword3" class="col-sm-2 col-form-label">Last Name</label>
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Mobile</label>
                   <div class="col-sm-6">
                     <input type="password" class="form-control" id="inputPassword3">
                   </div>
                 </div>
                 <div class="form-group row">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Country</label>
+                    <div class="col-sm-6">
+                      <input type="password" class="form-control" id="inputPassword3">
+                    </div>
+                  </div>
+                <div class="form-group row">
                   <div class="col-sm-8">
-                    <a class="btn btn-success float-right" [routerLink]=" [ '/step-2' ] ">Next <i class="fa fa-caret-right"></i></a>
+                    <a class="btn btn-warning mr-2 " [routerLink]=" [ '/step-1' ] "><i class="fa fa-caret-left"></i> Back </a>
+                    <a class="btn btn-success float-right" [routerLink]=" [ '/step-3' ] ">Next <i class="fa fa-caret-right"></i></a>
                   </div>
                 </div>
               </form>

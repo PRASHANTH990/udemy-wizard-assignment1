@@ -4,3 +4,32 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+.wizhead{
+    padding:20px;
+    text-align: center;
+    border-bottom: 1px solid black ;
+    color: white;
+    background-color: black;
+}
+
+.wiz_progress{
+/* border-bottom: 1px solid #272727; */
+}
+
+.sechead{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.status_box{
+    text-align: center;
+    padding:20px;
+}
+
+.status_box i{
+padding:10px;
+font-size: 2rem;
+border-radius: 50%;
+margin-bottom: 10px;;
+}
